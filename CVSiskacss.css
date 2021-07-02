@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+body{
+    background-color: #98ded9;
+    font-family: 'Calibri';}
+
+
+/*Bagian Header*/
+header{
+    color:white;
+    display:inline;}
+
+#therealheader{
+    display:flex;
+    flex-direction:row;
+    background-color:#ffefa1;
+    border:dotted 4px black;
+    border-radius: 20px;
+    color: black;
+    text-align:center;
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2);
+    margin: 30px 40px 20px 40px;}
+
+#therealheader img{
+    width:200px;
+    flex-basis:35%;
+    margin-top:0px;
+    padding:0;}
+
+#container-HA{
+    flex-basis:60%;
+    display:flex;
+    flex-direction:column;}
+
+#container-HA h1{
+    font: bold 50px 'Handlee', cursive;
+    flex-basis:20%;
+    margin-top:10px
+    margin-bottom:10px;
+    background-color:#fce38a;
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2);
+    border-radius:10px;}
+
+h1:hover{
+    transform:scale(1.05);}
+
+#therealheader img:hover{
+    transform:scale(1.05);}
+
+#aboutme{
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2);
+    border-radius:10px;
+    background-color:#fce38a;}
+
+#aboutme:hover{
+    transform:scale(1.05);}
+
+#aboutme h2{
+    padding-top:1px;
+    text-align:left;
+    margin-left:23px;
+    font: bold 30px Calibri;
+    color: black;
+    margin-bottom:0px;
+    margin-top:0px;}
+
+#aboutme p{
+    padding-right: 20px;
+    padding-bottom:10px;
+    margin-top:0px;
+    margin-left:23px;
+    text-align:justify;
+    flex-basis:80%;
+    font-family: Calibri;
+    font-size:17px;}
+
+nav{
+    top:0;
+    position:sticky;
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2);
+    border:solid 4px #ffcb91;
+    border-radius: 20px;
+    background-color: #e45826;
+    padding:5px;
+    
+    margin-left:40px;
+    margin-right:40px;
+    margin-top:20px;
+    margin-bottom:20px;
+    
+}
+
+.menu-btn a{
+    font-size: 23px;
+    font-weight:bold;
+    color: black;
+    text-decoration: none;
+}
+.menu-btn > li{
+    margin-right:2px;
+    display:inline-block;
+
+    background-color:white;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:3px;
+    padding-bottom:3px;
+
+    list-style-type: none;
+    transition:all 0.8s ease;
+
+ }
+.menu-btn{
+    text-align:center;
+    padding-left:10px;
+    padding-right:10px
+}
+.menu-btn li:hover {
+    background-color:lightblue;
+   
+}
+.menu-btn li a:hover{
+    color: #822659;
+    font-weight: bold; 
+}
+
+#dropdown{
+    display:none;
+}
+#dropdown.active{
+    display:inline-block;
+}
+ul{
+    text-decoration: none;
+    list-style:none;}
+
+span{
+    font-style:italic;}
+
+/*Bagian Main */
+p, li{
+    text-align:justify;
+    font-size: 17px;}
+
+.container-main{
+    display: flex;
+    flex-direction: column;
+    /*Prperti lainnya*/
+    margin-left:40px;
+    margin-right:40px;
+    background-color:#ffefa1;
+    border-radius: 10px;
+    border:dotted 4px black;
+}
+
+    
+.box{
+
+    background-color: #ffcb91;
+    margin-top:40px;
+    margin-bottom:15px;
+    margin-left:40px;
+    margin-right:40px;
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2);
+    border-radius:20px;
+
+    padding-top:0px;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-bottom: 30px;}
+
+article h2{
+    margin-bottom:0px;}
+
+#kemampuan ul{
+    font-size:17px;
+    margin-top:0px;}
+
+article section h3, p, ul{
+    margin-top: 0px;
+    margin-bottom: 0px;}
+
+.container-kontak{
+    display:flex;
+    flex-direction:row;
+}
+.kontak{
+    padding:20px;
+    margin-right:0px;
+    display:flex;
+    flex-direction:row;
+    flex-grow:1;
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2);
+    border-radius:10px;
+    background-color:#fce38a;
+    margin-left:5px;
+    margin-right:5px; 
+}
+
+.icon{
+    margin-bottom:0px;
+}
+.text h3{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.text p a{
+    text-decoration:none;
+    color:black;
+}
+.text p a:hover{
+    color: black;
+    font-weight: bold;
+}
+.text p{
+    text-align:left;
+    
+}
+.kontak:hover{
+    transform:scale(1.05);}
+
+aside{
+    background-color:#ffcb91;
+    width: 430px;
+    border: dotted 10px black;
+    margin:0 auto;
+    margin-top:25px;
+    margin-bottom:25px;
+    padding-bottom:20px;
+    padding-left:30px;
+    padding-right:30px;
+    box-shadow: 0 10px 10px 0 #ffcb91;
+    border-radius:10px;
+}
+.biodata{
+    text-align:center;
+}
+.biodata h2{
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.biodata img{
+    border-style:solid;}
+
+#info-bio{
+    padding-top:20px;
+}
+#info-bio p{
+    text-align:center;
+}
+aside:hover{
+    transform:scale(1.05);}
+
+footer p{
+    position:relative;
+    font-size:20px;
+    font-weight:bold;
+    font-family:monospace;
+}
+/*Penerapan Media Query*/
+@media screen and (max-width: 1000px) {
+    #therealheader{
+        display:flex;
+        flex-direction:column;}
+    
+    #therealheader img{
+        width:200px;
+        margin:0 auto;
+        padding:0;}
+    
+    #container-HA{
+        display:flex;
+        flex-direction:column;}
+    
+    #container-HA h1{
+        font: bold 30px 'Handlee', cursive;
+        flex-basis:20%;
+        margin-top:0px;
+        margin-left:20px;
+        margin-right:20px;
+        margin-bottom:10px;}
+    
+    h1:hover{
+        transform:scale(1.05);}
+    
+    #therealheader img:hover{
+        transform:scale(1.05);}
+    
+    #aboutme{
+        box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2);
+        border-radius:10px;
+        background-color:#fce38a;
+        margin-bottom:20px;
+        margin-left:20px;
+        margin-right:20px;}
+    
+    #aboutme:hover{
+        transform:scale(1.05);}
+    
+    #aboutme h2{
+        font: bold 20px Calibri;
+        color: black;
+        margin-bottom:0px;
+        margin-top:0px;}
+    
+    #aboutme p{
+        font-size:20px;}
+    .menu-btn > li{
+        border:solid 5px black;
+        margin-top:15px;
+        padding-bottom:0px;
+
+    }
+    
+    .menu-btn a{
+        font-size: 22px;}
+
+    p{
+        font-size:15;}
+
+    aside{
+        width:250px;}
+   }
+
+/* Rule yang dituliskan dalam block @media di bawah akan diterapkan pada device yang memiliki ukuran viewport di bawah 600px */
+@media screen and (max-width: 1300px) {
+    .menu-btn a{
+        font-size: 18px;}
+    .menu-btn li{
+        border:solid 2px black;
+        margin-top:15px;
+        padding-bottom:5px;
+        margin: 0 auto;
+    }
+    }
+
+
+@media screen and (max-width: 1100px) {
+    .container-kontak{
+        flex-direction:column;}
+    .kontak{
+        margin-top:5px;}
+}
+@media screen and (max-width: 600px) {
+    .menu-btn>li{
+        display:block;
+    }
+    aside{
+        width:200px;
+    }
+}
+
